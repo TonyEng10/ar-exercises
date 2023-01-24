@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+# validate :first_name_present, on: :create, class_name: "Employee"
+
+# def first_name_present
+#   errors.add(:first_name, "First name is required") if first_name.blank?
+# end
+
+@store2.employees.create(hourly_rate: 50)
