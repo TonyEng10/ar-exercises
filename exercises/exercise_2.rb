@@ -9,11 +9,7 @@ puts "----------"
 puts @store1.name
 @store2 = Store.find_by(id: 2)
 puts @store2.name
-@store3 = Store.find_by(id: 3)
-puts @store3.name
 
 @store1.name = "Vancouver"
 puts @store1.name
 
-@store3.destroy
-puts Store.count
